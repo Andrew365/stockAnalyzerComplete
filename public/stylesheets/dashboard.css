@@ -1,0 +1,29 @@
+#adder{
+position: relative;
+}
+#downloader{
+position: relative;
+}
+#analyze_a{
+position: relative;
+}
+#link-bar{
+  position: fixed;
+  margin-top: -50px;
+  padding-left: 600px;
+}
+body{
+  padding-top: 50px;
+}
+/*#tickeradd{
+  vertical-align: bottom;
+}
+#tickersub{
+  float:right;
+}*/
+#link-bar{
+  padding-left: -200px;
+}
+#links{
+  padding-top: 8px;
+}

@@ -1,0 +1,9 @@
+#error_message{
+  background-color: grey;
+  font-size: 2em;
+  border: solid black;
+  width: 100%;
+  text-align: center;
+  font: Arial Verdana;
+  font-family: sans-serif;
+}

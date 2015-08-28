@@ -1,0 +1,26 @@
+#error_message{
+  background-color: lightgrey;
+  font-size: 2em;
+  border: solid grey;
+  border-radius: 20px;
+  margin:20px;
+  margin-left: 300px;
+  margin-right: 300px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+  background-clip: padding-box;
+  font: Arial Verdana;
+  font-family: sans-serif;
+  color: #4D4D4D;
+}
+#table_header{
+  position: fixed;
+  background-color: red;
+}
+#adder{
+  padding-left: 300px;
+}
+#logout{
+  padding-left: -500px;
+}
