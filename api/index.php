@@ -659,6 +659,19 @@ masterLoop();
     $since1 = $since1[0];
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
     $since1 = substr($since1, 0, 4);
     if($since1 > $_GET['since']){
       $since = $since1;
@@ -666,13 +679,8 @@ masterLoop();
       $since = $_GET['since'];
     }
 
-
 //get the current price via return of getRTQoute
 $currPrice = getRTQoute($ticker);
-
-
-
-
 
 //Show data in json
 //this needs to be at the end
@@ -693,5 +701,8 @@ echo json_encode($json);
 }
 //api key doesnt match
 else{
- echo "you cant see this";
+ $AuthError = array(
+   'ticker' => 'api key is not valid'
+ );
+ echo json_encode($AuthError);
 }
